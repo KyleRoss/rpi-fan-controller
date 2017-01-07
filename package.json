@@ -1,0 +1,43 @@
+{
+  "name": "rpi-fan-controller",
+  "version": "1.0.0",
+  "description": "Control GPIO-attached fan on Raspberry Pi",
+  "main": "index.js",
+  "bin": {
+    "rpifan": "./bin/rpifan.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyleRoss/rpi-fan-controller.git"
+  },
+  "keywords": [
+    "raspberry",
+    "pi",
+    "rpi",
+    "fan",
+    "controller",
+    "gpio",
+    "temperature"
+  ],
+  "author": "Kyle Ross",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KyleRoss/rpi-fan-controller/issues"
+  },
+  "engines": {
+    "node": ">=4.3.2"
+  },
+  "homepage": "https://github.com/KyleRoss/rpi-fan-controller#readme",
+  "dependencies": {
+    "debug": "^2.6.0",
+    "rpi-gpio": "^0.7.0",
+    "yargs": "^6.6.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "should": "^11.1.2"
+  }
+}
