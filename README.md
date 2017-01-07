@@ -1,4 +1,6 @@
 # rpi-fan-controller
+[![npm](https://img.shields.io/npm/v/rpi-fan-controller.svg?style=flat-square)](https://www.npmjs.com/package/rpi-fan-controller) [![npm](https://img.shields.io/npm/dm/rpi-fan-controller.svg?style=flat-square)](https://www.npmjs.com/package/rpi-fan-controller)
+
 Control GPIO-attached fan on Raspberry Pi. The script is based on the instructions from [Edoardo Paolo Scalafiotti](https://hackernoon.com/how-to-control-a-fan-to-cool-the-cpu-of-your-raspberrypi-3313b6e7f92c). After getting my Pi setup, I used the Python script provided at the link above, although Python was using about 20-28% CPU constantly, causing the fans to run all the time anyways. After messing around for awhile, I decided to throw together a Node app to control the fans (quick and dirty) which barely used any CPU (0-1%). Now that script has been running for awhile, I wanted to refactor it to provide more options so others can quickly setup a fairly customized fan controller app in no time at all. There is a little more setup to this, unlike the Python script, but it's well worth the ability to control the fan as you wish.
 
 _**Note:** This was thrown together quickly and works great on my Raspberry Pi 3 Model B, but your results may differ._
