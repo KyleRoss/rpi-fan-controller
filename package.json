@@ -32,8 +32,8 @@
   },
   "homepage": "https://github.com/KyleRoss/rpi-fan-controller#readme",
   "dependencies": {
-    "debug": "^2.6.0",
-    "rpi-gpio": "^0.7.0",
+    "debug": "^3.1.0",
+    "rpi-gpio": "^2.0.0",
     "yargs": "^6.6.0"
   },
   "devDependencies": {
